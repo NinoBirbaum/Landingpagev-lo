@@ -1,0 +1,183 @@
+header {
+  background-image: url(img/véloimagefond.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  box-shadow: 0px -162px 181.6px 0px #242424 inset;
+  padding: 32px 70px 0px;
+}
+body {
+  margin: 0px;
+  background: #242424;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2 {
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+h3 {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 20px;
+}
+.navbar {
+  border-radius: 86px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 9.1px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(7px);
+  display: flex;
+  max-width: 1300px;
+  height: 79px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 0px 40px;
+}
+p {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navigation a {
+  color: rgb(28, 28, 28);
+}
+.navigation {
+  display: flex;
+  gap: 77px;
+}
+.navigation a:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
+  transition-duration: 100ms;
+  color: black;
+}
+.logobike:hover {
+  transform: scale(1.03);
+  transition: ease-in-out;
+  transition-duration: 100ms;
+}
+h1 {
+  margin-top: 140px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px;
+  max-width: 688px;
+}
+.argument {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 184px;
+  max-height: 195px;
+  text-align: center;
+  gap: 12px;
+}
+.argument img:hover {
+  transform: scale(1.03);
+  transition: ease-in-out;
+  transition-duration: 100ms;
+}
+.argumenttout {
+  display: flex;
+  justify-content: space-between;
+  gap: 139px;
+  margin-bottom: 172px;
+}
+.argument p {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+}
+.pourquoi {
+  padding: 0px 70px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.formulaire input {
+  display: block;
+  width: 100%;
+  width: 300px;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.formulaire input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+.formulaire button[type="submit"] {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 31px;
+}
+
+.formulaire button[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  margin: 12px 0px;
+}
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.languesselection {
+  display: flex;
+  flex-direction: column;
+  max-width: 130px;
+}
+footer {
+  display: flex;
+  margin: 250px 70px 32px;
+  gap: 200px;
+}
+.textfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.logoetlangue {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
